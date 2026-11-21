@@ -11,7 +11,7 @@ from validator import load_airports
 
 STUDENT_ID="251ADB240"
 FIRST_NAME="Sarah"
-LAST_NAME="Sarah"
+LAST_NAME="Fatima"
 
 LOGGER_NAME="flight_parser"
 
