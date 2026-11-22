@@ -31,4 +31,3 @@
 ## What I changed or verified myself
 
 - I wrote the code myself first, then used Claude only to debug it.
-- [Add what you checked yourself, e.g. "I ran `python tests/run_public_tests.py` after the fixes" or "I reviewed each suggested change before keeping it."]
