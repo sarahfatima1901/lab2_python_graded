@@ -51,7 +51,7 @@ def read_json(path: str, what: str):
     except json.JSONDecodeError as e:
         raise RuntimeProblem(f"{what} is not valid JSON: {path} ({e})")
     except (OSError, UnicodeDecodeError) as e:
-        raise RuntimeProblem(f"cannot read {what}{path}:e}")
+        raise RuntimeProblem(f"cannot read {what} {path}: {e}")
 
 def write_json(path: str, data, what: str)->None:
     try:
